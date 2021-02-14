@@ -12,6 +12,7 @@ app.use(helmet.hsts({
   force: true
 }))
 app.use(helmet.dnsPrefetchControl())
+app.use(helmet.noCache())
 
 
 
